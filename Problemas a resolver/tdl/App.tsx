@@ -11,6 +11,8 @@ import {
   SafeAreaView,
 } from 'react-native-safe-area-context';
 
+import "global.css";
+
 interface Task {
   id: string;
   text: string;
